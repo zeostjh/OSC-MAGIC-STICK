@@ -41,9 +41,9 @@ void loop()
     delay(200);
     if(val <= 19)
     {
-        Serial.print('ON =');
+        Serial.print('OFF =');
         Serial.println(val);
-        OSCMessage msg("/esp/ID_001/1");
+        OSCMessage msg("/esp/ID_001/0");
         udp.beginPacket(Destination_Address, udpPort);
         msg.send(udp); 
         udp.endPacket();
