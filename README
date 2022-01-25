@@ -1,14 +1,13 @@
-README 
-
-The purpose of this project is to create a magic wand. 
-hardware consists of an ESP32, Digital Hall Effect sensor and 18" 3D printed stick.
-The stick is wide on one end in order to embed the microcontroller and tapered 
-on the other to house the hall effect sensor. When the Hall effect is activated within 
-the magnetic field an OSC message is sent over wifi as the message =  /esp/ID_001/1   representing ON
-                                                           message =  /esp/ID_001/0   representing OFF
-
-These messages are to be send to TouchDesigner and or VVVV to effect generative GLSL projection maped onto an object. 
-                                                           
+README
+The purpose of this project is to create a magic wand.
+The hardware consists of an ESP32, Digital Hall Effect sensor and 18" 3D printed stick.
+The stick is wide on one end in order to embed the microcontroller and tapered on the other to house the hall effect sensor. 
+When the Hall effect is activated within the magnetic field 
+an OSC message is sent over wifi as the message = /ESP/ID_001/1 representing ON 
+                                        message = /ESP/ID_001/0
+                                        
+                                       
+This data is sent to TouchDesigner and VVVV as control for generative graphics to be projection mapped onto a 3d object in phisical space 
 
 
 
