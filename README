@@ -1,3 +1,5 @@
+Author- ZEOSTJH
+
 README
 The purpose of this project is to create a magic wand.
 Hardware consists of an ESP32, Digital Hall Effect sensor and 18" 3D printed stick.
@@ -13,6 +15,17 @@ MIDI_OSC_MUX.h =  is the same as OSC.h but enabled MIDI send note on/off over rt
 The data is sent to TouchDesigner and VVVV as control for generative graphics to be projection mapped onto a 3d object in physical space 
 
 
+
+
+Librarys:
+
+WiFi.h
+WiFiUdp.h
+WiFiClient.h
+OSCBundle.h
+OSCMessage.h
+AppleMIDI_Debug.h
+AppleMIDI.h
 
 
 
