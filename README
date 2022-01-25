@@ -6,11 +6,18 @@ to house the hall effect sensor. When the Hall effect is activated within the ma
 an OSC message is sent over wifi as the message = /ESP/ID_001/1 representing ON 
                                         message = /ESP/ID_001/0 representing OFF
                                         
+                                        
+OSC.h = single message OSC over WiFi
+OSC
+MIDI_OSC_MUX.h =  is the same as OSC.h but added MIDI note over rtpMIDI 
+                                        
                                        
+
+
+
 This data is sent to TouchDesigner and VVVV as control for generative graphics to be projection mapped onto a 3d object in phisical space 
 
 
-analog sensor data as MIDI CC is in the works 
 
 
 
