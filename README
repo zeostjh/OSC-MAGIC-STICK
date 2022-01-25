@@ -4,7 +4,7 @@ README
 The purpose of this project is to create a magic wand.
 Hardware consists of an ESP32, Digital Hall Effect sensor and 18" 3D printed stick.
 The stick is wide on one end in order to embed the microcontroller and tapered on the other 
-to house the hall effect sensor. When the Hall effect is within a close proximity magnetic field 
+to house the hall effect sensor. When the Hall effect is within close proximity magnetic field 
 an OSC message is sent over wifi as the message = /ESP/ID_001/1 representing ON 
                                         message = /ESP/ID_001/0 representing OFF
                                         
@@ -24,8 +24,8 @@ WiFiUdp.h
 WiFiClient.h
 OSCBundle.h
 OSCMessage.h
-AppleMIDI_Debug.h
 AppleMIDI.h
+AppleMIDI_Debug.h
 
 
 
