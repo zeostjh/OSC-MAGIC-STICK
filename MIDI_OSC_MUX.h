@@ -8,7 +8,6 @@
 #include <WiFiClient.h>
 #include <WiFiUdp.h>
 
-
 const int hallPin = 2;
 const char *ssid = "?*****?";
 const char *pwd = "?*****?";
