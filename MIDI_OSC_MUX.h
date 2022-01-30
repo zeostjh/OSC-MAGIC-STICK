@@ -1,3 +1,6 @@
+#define SerialMon Serial
+#include <AppleMIDI_Debug.h>
+#include <AppleMIDI.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <OSCMessage.h>
@@ -5,9 +8,6 @@
 #include <WiFiClient.h>
 #include <WiFiUdp.h>
 
-#define SerialMon Serial
-#include <AppleMIDI_Debug.h>
-#include <AppleMIDI.h>
 
 const int hallPin = 2;
 const char *ssid = "?*****?";
