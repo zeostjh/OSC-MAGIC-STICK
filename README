@@ -1,32 +1,3 @@
-Author- ZEOSTJH
-
-README
-The purpose of this project is to create a magic wand.
-Hardware consists of an ESP32, Digital Hall Effect sensor and 18" 3D printed stick.
-The stick is wide on one end in order to embed the microcontroller and tapered on the other 
-to house the hall effect sensor. When the Hall effect is within close proximity magnetic field 
-an OSC message is sent over wifi as the message = /ESP/ID_001/1 representing ON 
-                                        message = /ESP/ID_001/0 representing OFF
-                                        
-OSC.h = single message OSC
-OSC_Bundle.h = bundled OSC with add
-MIDI_OSC_MUX.h =  is the same as OSC.h but enabled MIDI send note on/off over rtpMIDI 
-
-The data is sent to TouchDesigner and VVVV as control for generative graphics to be projection mapped onto a 3d object in physical space 
-
-
-
-
-Librarys:
-
-WiFi.h
-WiFiUdp.h
-WiFiClient.h
-OSCBundle.h
-OSCMessage.h
-AppleMIDI.h
-AppleMIDI_Debug.h
-
 
 
 
